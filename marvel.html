@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marvel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo Marvel" />
+    </div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <ul id="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Characters</a></li>
+      <li><a href="#">Movie</a></li>
+      <li><a href="#">More</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to the Marvel Universe!</h2>
+    <img src="banner.jpg" alt="The Avengers" />
+    <h3>Marvel: A Superhero World That Inspires the World</h3>
+    <p>Marvel is a big name in the entertainment world, especially known for its superhero universe rich in characters, stories, and heroic values. Founded in 1939 as Timely Publications and later changed to Marvel Comics in 1961, the company has created legendary icons such as Spider-Man, Iron Man, Captain America, Thor, Hulk, and many more. Marvel's success is not only due to its interesting characters, but also because of the interconnected storylines, especially in the Marvel Cinematic Universe (MCU). The MCU began in 2008 with the film Iron Man, and has since grown into one of the biggest film franchises of all time. Films like The Avengers, Infinity War, and Endgame have not only broken box office records, but have also touched the emotions of millions of viewers around the world.
+ One of Marvel's main strengths is its ability to present stories that are not only full of action, but also touch on human issues such as responsibility, sacrifice, friendship, and hope. Marvel superheroes are not depicted as perfect beings, but as ordinary people who struggle with their flaws and moral dilemmas. Today, Marvel continues to grow by introducing new generations of heroes through films, TV series, and other media. With a spirit of innovation and bold storytelling, Marvel remains a symbol of strength, hope, and inspiration for fans around the world.</p>
+  </section>
+
+  <section id="characters"
+  <div class="character-grid">
+    <div class="character-card">
+      <img src="ironman.jpg" alt="Iron Man">
+      <h3>Iron Man</h3>
+    </div>
+    <div class="character-card">
+      <img src="thor.jpg" alt="Thor">
+      <h3>Thor</h3>
+    </div>
+    <div class="character-card">
+      <img src="hulk.jpg" alt="Hulk">
+      <h3>Hulk</h3>
+    </div>
+    <div class="character-card">
+      <img src="hawkeye.jpg" alt="Hawkeye">
+      <h3>Hawkeye</h3>
+    </div>
+    <div class="character-card">
+      <img src="blackwidow.jpg" alt="Black Widow">
+      <h3>black Widow</h3>
+    </div>
+    <div class="character-card">
+      <img src="spiderman.jpg" alt="Spiderman">
+      <h3>Spiderman</h3>
+    </div>
+    <div class="character-card">
+      <img src="vision.jpg" alt="vision">
+      <h3>vision</h3>
+    </div>
+    <div class="character-card">
+      <img src="antman.jpg" alt="Ant Man">
+      <h3>Ant Man</h3>
+    </div><div class="character-card">
+      <img src="drstrange.jpg" alt="Dr Strange">
+      <h3>Dr Strange</h3>
+    </div>
+    <div class="character-card">
+      <img src="blackpanther.jpg" alt="Black Panther">
+      <h3>black Panther</h3>
+    </div>
+    <div class="character-card">
+      <img src="groot.jpg" alt="Groot">
+      <h3>Groot</h3>
+    </div>
+    <div class="character-card">
+      <img src="rocket.jpg" alt="Rocket">
+      <h3>Rocket</h3>
+    </div>
+    <div class="character-card">
+      <img src="drax.jpg" alt="Drax">
+      <h3>Drax</h3>
+    </div>
+    <div class="character-card">
+      <img src="captainmarvel.jpg" alt="Captain Marvel">
+      <h3>Captain Marvel</h3>
+    </div>
+    <div class="character-card">
+      <img src="bucky.jpg" alt="The Winter Soldier">
+      <h3>The Winter Soldier</h3>
+    </div>
+    <div class="character-card">
+      <img src="gamora.jpg" alt="Gamora">
+      <h3>Gamora</h3>
+    </div>
+    <div class="character-card">
+      <img src="scarlet.jpg" alt="Scarlet Witch">
+      <h3>Scarlet Witch</h3>
+    </div>
+    <div class="character-card">
+      <img src="captainamerica.jpg" alt="Captain America">
+      <h3>Captain America</h3>
+    </div>
+</section>
+
+  </section>
+
+  <section id="movie">
+  <div id="movie-list">
+    <div class="movie-container">
+      <div class="movie-card" onclick="showMovieDetail('ta')">
+        <img src="a1.jpg" alt="The Avengers">
+        <h3>The Avengers</h3>
+      </div>
+      <div class="movie-card" onclick="showMovieDetail('aou')">
+        <img src="a2.jpg" alt="Avengers Age Of Ultron">
+        <h3>Avengers  Age Of Ultron</h3>
+      </div>
+      <div class="movie-card" onclick="showMovieDetail('iw')">
+        <img src="a3.jpg" alt="Avengers Infinity War">
+        <h3>Avengers Infinity War</h3>
+      </div>
+      <div class="movie-card" onclick="showMovieDetail('eg')">
+        <img src="a4.jpg" alt="Avengers End Game">
+        <h3>Avengers End Game</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Detail Film -->
+  <div id="movie-detail" style="display: none;">
+    <button onclick="backToMovieList()">← Back</button>
+    <div id="movie-detail-content"></div>
+  </div>
+</section>
+
+
+  <section id="more" style=" text-align: center; padding: 2rem; color: white;">
+  <h2>Coming Soon</h2>
+</section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
